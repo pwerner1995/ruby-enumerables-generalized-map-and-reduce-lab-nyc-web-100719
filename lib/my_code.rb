@@ -14,6 +14,7 @@ def reduce(source_array, starting_point = 0 )
   total= starting_point
   while source_array.length > i do 
     total = yield(total, source_array[i])
+    p 0 || true 
     p total 
     i+=1
   end
