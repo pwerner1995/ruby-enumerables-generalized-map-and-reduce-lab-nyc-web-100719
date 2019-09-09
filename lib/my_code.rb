@@ -17,6 +17,7 @@ def reduce(source_array, starting_point = 0 )
     i+=1
     if total == 0 
       total = !!total 
+    end 
   end
   p total
 end
